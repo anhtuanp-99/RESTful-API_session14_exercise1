@@ -4,6 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * DTO nhận dữ liệu đăng nhập từ client.
+ */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

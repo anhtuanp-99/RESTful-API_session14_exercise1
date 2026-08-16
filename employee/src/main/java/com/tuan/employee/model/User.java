@@ -23,8 +23,8 @@ public class User {
     private String password;
 
     @Column(nullable = false, length = 20)
-    private String role;
+    private String role; // "ADMIN", "USER" – dùng để phân quyền
 
     @Column(nullable = false)
-    private Boolean enabled = true;
+    private Boolean enabled = true; // Mặc định true, có thể khóa tài khoản sau
 }
